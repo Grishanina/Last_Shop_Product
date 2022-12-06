@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp1.WindowPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Реклама" Height="350" Width="500" Background="Gold">
+    
+    <Grid>
+        
+            <Border x:Name="bor1" BorderBrush="BlueViolet" Background="Yellow" BorderThickness="10">
+                <Border x:Name="bor2" BorderBrush="BlueViolet" Background="Yellow" BorderThickness="5">
+                    <StackPanel HorizontalAlignment="Center">
+                <TextBlock x:Name="tb1" HorizontalAlignment="Center" FontWeight="DemiBold" Margin="0,60,0,0" FontFamily="Technical Italic, Comic Sans MS, Arial">Новый продуктовый магазин "Ягодка"</TextBlock>
+                    <TextBlock x:Name="tb2" HorizontalAlignment="Center" FontWeight="DemiBold" FontFamily="Technical Italic, Comic Sans MS, Arial">Товары по закупочным ценам</TextBlock>
+                    <TextBlock x:Name="tb3" HorizontalAlignment="Center" FontWeight="DemiBold" FontFamily="Technical Italic, Comic Sans MS, Arial">Не упустите такую возможность</TextBlock>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Image x:Name="Moni" Margin="0,0,20,0" Source="Resource\m_moneti.png" Width="50" Height="50"></Image>
+                        <Image x:Name="Klubnika" Source="Resource\klubnika.png" Width="100" Height="100"></Image>
+                        <Image x:Name="Moni1" Margin="20,0,0,0" Source="Resource\m_moneti.png" Width="50" Height="50"></Image>
+                    </StackPanel>
+                </StackPanel>
+                </Border>
+            </Border>
+        
+    </Grid>
+</Window>
